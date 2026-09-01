@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Log Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body data-initial-analysis-id="{{ initial_analysis_id }}">
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Cybersecurity Dashboard</p>
+        <h1>Security Log Analyzer</h1>
+      </div>
+      <div class="top-actions">
+        <button id="load-sample" type="button">Load Sample</button>
+        <a class="export-link disabled" id="export-json" href="#">JSON</a>
+        <a class="export-link disabled" id="export-csv" href="#">CSV</a>
+      </div>
+    </header>
+
+    <section class="upload-panel" id="drop-zone">
+      <div>
+        <h2>Analyze Log File</h2>
+        <p>Upload Apache, Syslog, or custom application logs. Malformed lines are preserved and counted.</p>
+      </div>
+      <form id="upload-form">
+        <label class="file-picker" for="log-file">
+          <span id="file-label">Choose or drop a log file</span>
+          <input id="log-file" name="file" type="file" accept=".log,.txt,text/plain">
+        </label>
+        <button type="submit">Upload & Analyze</button>
+      </form>
+      <p class="status" id="status-message"></p>
+    </section>
+
+    <section class="summary-grid" aria-label="Analysis summary">
+      <article class="summary-card">
+        <span>Total Lines</span>
+        <strong id="total-lines">0</strong>
+      </article>
+      <article class="summary-card">
+        <span>Parsed</span>
+        <strong id="parsed-percent">0%</strong>
+      </article>
+      <article class="summary-card">
+        <span>Unique IPs</span>
+        <strong id="unique-ips">0</strong>
+      </article>
+      <article class="summary-card">
+        <span>Anomalies</span>
+        <strong id="anomaly-count">0</strong>
+      </article>
+    </section>
+
+    <section class="chart-grid" aria-label="Charts">
+      <article class="chart-panel wide">
+        <h2>Requests Per Hour</h2>
+        <canvas id="timeline-chart"></canvas>
+      </article>
+      <article class="chart-panel">
+        <h2>Top IP Addresses</h2>
+        <canvas id="top-ip-chart"></canvas>
+      </article>
+      <article class="chart-panel">
+        <h2>Status Codes</h2>
+        <canvas id="status-chart"></canvas>
+      </article>
+      <article class="chart-panel">
+        <h2>Log Levels</h2>
+        <canvas id="level-chart"></canvas>
+      </article>
+    </section>
+
+    <section class="table-panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Detected Activity</p>
+          <h2>Anomalies</h2>
+        </div>
+        <input id="anomaly-search" type="search" placeholder="Filter anomalies">
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-sort-anomaly="ip">IP</th>
+              <th data-sort-anomaly="type">Type</th>
+              <th data-sort-anomaly="severity">Severity</th>
+              <th data-sort-anomaly="count">Count</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody id="anomaly-table"></tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <button type="button" id="anomaly-prev">Previous</button>
+        <span id="anomaly-page">Page 1</span>
+        <button type="button" id="anomaly-next">Next</button>
+      </div>
+    </section>
+
+    <section class="table-panel">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Parsed Records</p>
+          <h2>Log Entries</h2>
+        </div>
+        <div class="filters">
+          <input id="entry-ip" type="search" placeholder="IP">
+          <input id="entry-level" type="search" placeholder="Level">
+          <input id="entry-keyword" type="search" placeholder="Keyword">
+          <input id="entry-start" type="datetime-local">
+          <input id="entry-end" type="datetime-local">
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-sort-entry="timestamp">Timestamp</th>
+              <th data-sort-entry="ip_address">IP</th>
+              <th data-sort-entry="log_level">Level</th>
+              <th data-sort-entry="status_code">Status</th>
+              <th data-sort-entry="source_format">Format</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="entry-table"></tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <button type="button" id="entry-prev">Previous</button>
+        <span id="entry-page">Page 1</span>
+        <button type="button" id="entry-next">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

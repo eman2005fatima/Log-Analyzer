@@ -1,0 +1,58 @@
+192.0.2.10 - - [09/Jul/2026:10:00:00 +0000] "GET / HTTP/1.1" 200 512 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:01 +0000] "GET /assets/app.css HTTP/1.1" 200 1300 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:02 +0000] "GET /assets/app.js HTTP/1.1" 200 2150 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:03 +0000] "GET /api/items?page=1 HTTP/1.1" 200 800 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:04 +0000] "GET /api/items?page=2 HTTP/1.1" 200 805 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:05 +0000] "GET /api/items?page=3 HTTP/1.1" 200 799 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:06 +0000] "GET /api/items?page=4 HTTP/1.1" 200 812 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:07 +0000] "GET /api/items?page=5 HTTP/1.1" 200 815 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:08 +0000] "GET /api/items?page=6 HTTP/1.1" 200 818 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:09 +0000] "GET /api/items?page=7 HTTP/1.1" 200 811 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:10 +0000] "GET /api/items?page=8 HTTP/1.1" 200 809 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:11 +0000] "GET /api/items?page=9 HTTP/1.1" 200 814 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:12 +0000] "GET /api/items?page=10 HTTP/1.1" 200 816 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:13 +0000] "GET /api/items?page=11 HTTP/1.1" 200 817 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:14 +0000] "GET /api/items?page=12 HTTP/1.1" 200 808 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:15 +0000] "GET /api/items?page=13 HTTP/1.1" 200 807 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:16 +0000] "GET /api/items?page=14 HTTP/1.1" 200 806 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:17 +0000] "GET /api/items?page=15 HTTP/1.1" 200 805 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:18 +0000] "GET /api/items?page=16 HTTP/1.1" 200 804 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:19 +0000] "GET /api/items?page=17 HTTP/1.1" 200 803 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:20 +0000] "GET /api/items?page=18 HTTP/1.1" 200 802 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:21 +0000] "GET /api/items?page=19 HTTP/1.1" 200 801 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:22 +0000] "GET /api/items?page=20 HTTP/1.1" 200 800 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:23 +0000] "GET /api/items?page=21 HTTP/1.1" 200 799 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:24 +0000] "GET /api/items?page=22 HTTP/1.1" 200 798 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:25 +0000] "GET /api/items?page=23 HTTP/1.1" 200 797 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:26 +0000] "GET /api/items?page=24 HTTP/1.1" 200 796 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:27 +0000] "GET /api/items?page=25 HTTP/1.1" 200 795 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:28 +0000] "GET /api/items?page=26 HTTP/1.1" 200 794 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:29 +0000] "GET /api/items?page=27 HTTP/1.1" 200 793 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:30 +0000] "GET /api/items?page=28 HTTP/1.1" 200 792 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:31 +0000] "GET /api/items?page=29 HTTP/1.1" 200 791 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:32 +0000] "GET /api/items?page=30 HTTP/1.1" 200 790 "-" "Mozilla/5.0"
+192.0.2.10 - - [09/Jul/2026:10:00:33 +0000] "GET /api/items?page=31 HTTP/1.1" 200 789 "-" "Mozilla/5.0"
+198.51.100.23 - - [09/Jul/2026:10:02:00 +0000] "GET /admin HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:03 +0000] "GET /backup HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:06 +0000] "GET /old HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:09 +0000] "GET /wp-admin HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:12 +0000] "GET /phpmyadmin HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:15 +0000] "GET /config HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:18 +0000] "GET /test HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:21 +0000] "GET /dev HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:24 +0000] "GET /staging HTTP/1.1" 404 120 "-" "dirbuster"
+198.51.100.23 - - [09/Jul/2026:10:02:27 +0000] "GET /server-status HTTP/1.1" 404 120 "-" "dirbuster"
+203.0.113.12 - - [09/Jul/2026:11:15:00 +0000] "POST /login HTTP/1.1" 302 410 "-" "Mozilla/5.0"
+203.0.113.12 - - [09/Jul/2026:11:16:00 +0000] "GET /dashboard HTTP/1.1" 200 2500 "-" "Mozilla/5.0"
+Jul  9 10:05:00 authbox sshd[2210]: Failed password for invalid user admin from 203.0.113.45 port 50100 ssh2
+Jul  9 10:05:05 authbox sshd[2211]: Failed password for invalid user root from 203.0.113.45 port 50101 ssh2
+Jul  9 10:05:10 authbox sshd[2212]: Failed password for invalid user test from 203.0.113.45 port 50102 ssh2
+Jul  9 10:05:15 authbox sshd[2213]: Failed password for invalid user oracle from 203.0.113.45 port 50103 ssh2
+Jul  9 10:05:20 authbox sshd[2214]: Failed password for invalid user postgres from 203.0.113.45 port 50104 ssh2
+Jul  9 10:05:25 authbox sshd[2215]: Failed password for invalid user git from 203.0.113.45 port 50105 ssh2
+Jul  9 10:05:30 authbox sshd[2216]: Failed password for invalid user deploy from 203.0.113.45 port 50106 ssh2
+Jul  9 10:07:00 authbox sudo: pam_unix(sudo:session): session opened for user root by analyst(uid=1000)
+2026-07-09 10:08:00 [INFO] 10.0.0.5 User analyst viewed incident report
+2026-07-09 10:08:20 [WARNING] 10.0.0.9 API token nearing expiration
+2026-07-09 10:08:40 [ERROR] 10.0.0.12 Login failed for service account
+this is a malformed line that should be preserved as unknown
